@@ -125,6 +125,6 @@ yarn deploy
 ## This is the Way!
 
 ```
-#### REV01: Fri 05 May 2023 17:00
+#### REV01: Fri 05 May 2023 20:00
 #### START: Fri 05 May 2023 15:00
 ```
