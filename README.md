@@ -11,4 +11,22 @@
 * URL: <https://github.com/yforku/>
 * New Repo: [DocuDemo](https://github.com/yforku/DocuDemo/), Public, README, .gitignore:Node, MIT License, master branch
 
-This is the Way!
+## Deb Packages
+
+```
+export DEBS="
+aptitude
+git
+sudo
+vim 
+"
+date;
+time apt-get install $DEBS -y
+[ -d /etc/sudoers.d/ ] && echo "cbkadal    ALL=(ALL:ALL) ALL" > /etc/sudoers.d/cbkadal
+time (aptitude update&&echo " =1= "&&aptitude safe-upgrade -y&&echo " =2= "&&aptitude autoclean -y;)
+
+```
+
+
+
+## This is the Way!
