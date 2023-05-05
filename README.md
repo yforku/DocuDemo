@@ -12,7 +12,9 @@
 ```
 | ------ | -------- | --------- | --------- | --------- | ---------- |
 | Name   | Protocol | Host IP   | Host Port | Guest IP  | Guest Port |
+| ------ | -------- | --------- | --------- | --------- | ---------- |
 | Rule 2 | TCP      | 127.0.0.1 | 5001      | 10.0.2.15 | 3000       |
+| ------ | -------- | --------- | --------- | --------- | ---------- |
 ```
 
 ![Port Forwarding](debVBOX-034.jpg)
@@ -58,7 +60,9 @@ time (aptitude update&&echo " =1= "&&aptitude safe-upgrade -y&&echo " =2= "&&apt
 
 ## This is the Way!
 
-#### REV03: Fri 05 May 2023 09:00
-#### REV02: Thu 04 May 2023 16:00
-#### REV01: Wed 03 May 2023 20:00
-#### START: Sat 29 Apr 2023 13:00
+```
+REV03: Fri 05 May 2023 09:00
+REV02: Thu 04 May 2023 16:00
+REV01: Wed 03 May 2023 20:00
+START: Sat 29 Apr 2023 13:00
+```
