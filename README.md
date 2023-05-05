@@ -6,6 +6,8 @@
 * [Debian Package (root)](#idx05)
 * [Default Shell: BASH](#idx06)
 * [Setting Debian](#idx07)
+* [NVM (node.js)](#idx08)
+* [Install Yarn and Check Version](#idx09)
 
 
 [&#x213C;](#)<br id="idx01">
@@ -143,6 +145,48 @@ EOF
 source $HOME/.bash_profile
 
 ```
+
+[&#x213C;](#)<br id="idx08">
+## NVM (node.js)
+
+* Get node.js
+
+```
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+# FIRST TIME ONLY or EXIT
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+```
+
+* Check it out!
+  * E.g. version v18.16.0
+
+```
+nvm ls-remote
+
+```
+
+* Install and Check Version (e.g. v18.16.0)
+
+```
+nvm install v18.16.0
+sleep 2
+node -v
+
+```
+
+[&#x213C;](#)<br id="idx09">
+## Install Yarn and Check Version
+
+```
+npm install -g yarn
+sleep 2
+yarn --version
+
+```
+
 
 
 ## This is the Way!
