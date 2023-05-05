@@ -14,11 +14,6 @@
 ## VirtualBox OVA 
 * Source: DOCU-2304-02.ova (Debian 11.7)
   * OVA Link --- <https://bit.ly/3AWlRjN>
-  
-```
-wget -c https://bit.ly/3AWlRjN
-
-```
 * Ref:
   * Debian ISO <https://doit.vlsm.org/012.html>
   * Preparation <https://doit.vlsm.org/013.html>
@@ -207,7 +202,7 @@ npm install -g npm@9.6.6
 ## This is the Way!
 
 ```
-REV03: Fri 05 May 2023 09:00
+REV03: Fri 05 May 2023 14:00
 REV02: Thu 04 May 2023 16:00
 REV01: Wed 03 May 2023 20:00
 START: Sat 29 Apr 2023 13:00
