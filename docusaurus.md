@@ -23,6 +23,7 @@ Again, you are not "cbkadal," so you should replace "cbkadal" with your account.
 * Test your SSH connection to GitHub.
 
 ```
+#!/bin/bash
 ssh -T git@github.com
 
 ```
@@ -34,7 +35,9 @@ ssh -T git@github.com
   * LINK: <https://github.com/yforku/DocuDemo/>
 
 ```
+#!/bin/bash
 echo You are not cbkadal! You should replace USER, ORG, and REPO with your own.
+sleep 2
 USER="cbkadal"
 ORG="yforku"
 REPO="DocuDemo"
@@ -56,6 +59,6 @@ ls -aF
 ## This is the Way!
 
 ```
-#### REV01: Fri 05 May 2023 16:00
+#### REV01: Fri 05 May 2023 17:00
 #### START: Fri 05 May 2023 15:00
 ```
