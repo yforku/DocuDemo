@@ -87,11 +87,8 @@ npm run start -- --host 0.0.0.0
 
 * NAT from port 3000 to port 5001
 * At your host, use 
+  * <http://localhost:5001/>
 
-```
-http://localhost:5001/
-
-```
 
 
 [&#x213C;](#idx00)<br id="idxZZ">
