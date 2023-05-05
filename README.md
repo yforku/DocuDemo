@@ -13,6 +13,12 @@
 [&#x213C;](#)<br id="idx01">
 ## VirtualBox OVA 
 * Source: DOCU-2304-02.ova (Debian 11.7)
+  * OVA Link --- <https://bit.ly/3AWlRjN>
+  
+```
+wget -c https://bit.ly/3AWlRjN
+
+```
 * Ref:
   * Debian ISO <https://doit.vlsm.org/012.html>
   * Preparation <https://doit.vlsm.org/013.html>
