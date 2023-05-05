@@ -23,6 +23,7 @@ deb https://security.debian.org/    bullseye-security  main contrib non-free
 deb https://deb.debian.org/debian/  bullseye-updates   main contrib non-free
 deb https://deb.debian.org/debian/  bullseye-backports main contrib non-free
 EOF
+apt-get update && apt-get upgrade -y
 
 ```
 
