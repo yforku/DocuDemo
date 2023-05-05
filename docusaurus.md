@@ -67,8 +67,8 @@ sleep 2
 [ -d $HOME/git/$REPO/ ] || { echo "ERROR: no git directory!"; exit 1; }
 cd $HOME/git/$REPO/
 echo "Installing Docusaurus..."
-npm init docusaurus@latest docusaurus classic
-cd $HOME/git/$REPO/docusaurus/
+npm init docusaurus@latest Docusaurus classic
+cd $HOME/git/$REPO/Docusaurus/
 ls -al
 
 ```
