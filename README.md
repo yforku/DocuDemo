@@ -7,7 +7,7 @@
   * Preparation <https://doit.vlsm.org/013.html>
   * Instalation <https://doit.vlsm.org/014.html>
 
-## Port Forwarding (port 3000 to 5001)
+## NAT Port Forwarding (port 3000 to 5001)
 
 ```
 | ------ | -------- | --------- | --------- | --------- | ---------- |
