@@ -4,6 +4,7 @@
 * [Introduction](#idx01)
 * [GitHub and SSH](#idx02)
 * [Cloning GitHub Repo](#idx03)
+* [Installing Docusaurus](#idx04)
 
 
 [&#x213C;](#idx00)<br id="idx01">
@@ -55,7 +56,22 @@ ls -aF
 
 ```
 
+[&#x213C;](#idx00)<br id="idx04">
+## Installing Docusaurus
 
+```
+#!/bin/bash
+REPO="DocuDemo"
+echo "Using repo $REPO/"
+sleep 2
+[ -d $HOME/git/$REPO/ ] || { echo "ERROR: no git directory!"; exit 1; }
+cd $HOME/git/$REPO/
+echo "Installing Docusaurus..."
+npm init docusaurus@latest docusaurus classic
+cd $HOME/git/$REPO/docusaurus/
+ls -al
+
+```
 
 [&#x213C;](#idx00)<br id="idxZZ">
 ## This is the Way!
