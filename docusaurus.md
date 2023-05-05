@@ -6,6 +6,7 @@
 * [Cloning GitHub Repo](#idx03)
 * [Installing Docusaurus](#idx04)
 * [Local Test](#idx05)
+* [GitHub Page Deployment](#idx06)
 
 
 [&#x213C;](#idx00)<br id="idx01">
@@ -91,6 +92,33 @@ npm run start -- --host 0.0.0.0
 * At your host, use 
   * <http://localhost:5001/>
 
+
+[&#x213C;](#idx00)<br id="idx06">
+## GitHub Page Deployment
+
+* E.g., for deploying <https://yforku.github.io/DocuDemo/>, modify the following in file "docusaurus.config.js": 
+
+```
+  title: 'DocuDemo',                // Or else
+  tagline: 'This is the Way!',      // Or else
+  favicon: 'img/favicon.ico',       // Or else
+  url: 'https://yforku.github.io',  // Or else
+  baseUrl: '/DocuDemo/',            // Or else
+  organizationName: 'yforku',       // (Usually your GitHub org/user name)
+  projectName: 'DocuDemo',          // (Usually your repo name)
+  trailingSlash: true,              // "true/" or "false"
+
+```
+
+* Do yarn
+
+```
+#!/bin/bash
+GIT_USER="cbkadal"
+USE_SSH="true"
+yarn deploy
+
+```
 
 
 [&#x213C;](#idx00)<br id="idxZZ">
