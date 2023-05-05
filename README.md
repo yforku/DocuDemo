@@ -9,6 +9,6 @@
 
 ## Github
 * URL: <https://github.com/yforku/>
-* New Repo: DocuDemo, Public, README, .gitignore:Node, MIT License, master branch
+* New Repo: [DocuDemo](https://github.com/yforku/DocuDemo/), Public, README, .gitignore:Node, MIT License, master branch
 
 This is the Way!
