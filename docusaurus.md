@@ -81,6 +81,8 @@ ls -al
 
 ```
 #!/bin/bash
+REPO="DocuDemo"
+cd $HOME/git/$REPO/Docusaurus/
 npm run start -- --host 0.0.0.0
 
 ```
