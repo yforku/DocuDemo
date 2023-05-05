@@ -1,6 +1,6 @@
 # DocuDemo
 
-## OVA 
+## VirtualBox OVA 
 * Source: DOCU-2304-02.ova (Debian 11.7)
 * Ref:
   * Debian ISO <https://doit.vlsm.org/012.html>
