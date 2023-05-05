@@ -2,6 +2,7 @@
 * [README](README.md)
 * [Introduction](#idx01)
 * [GitHub and SSH](#idx02)
+* [Cloning GitHub Repo](#idx03)
 
 
 [&#x213C;](#)<br id="idx01">
