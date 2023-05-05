@@ -1,3 +1,4 @@
+[&#x213C;](#)<br id="idx00">
 # DocuDemo
 * [VirtualBox OVA](#idx01)
 * [NAT Port Forwarding (port 3000 to 5001)](#idx02)
@@ -11,7 +12,7 @@
 * [Install Docusaurus](docusaurus.md)
 
 
-[&#x213C;](#)<br id="idx01">
+[&#x213C;](#idx00)<br id="idx01">
 ## VirtualBox OVA 
 * Source: DOCU-2304-02.ova (Debian 11.7)
   * OVA Link --- <https://bit.ly/3AWlRjN>
@@ -33,7 +34,7 @@
   * Preparation <https://doit.vlsm.org/013.html>
   * Instalation <https://doit.vlsm.org/014.html>
 
-[&#x213C;](#)<br id="idx02">
+[&#x213C;](#idx00)<br id="idx02">
 ## NAT Port Forwarding (port 3000 to 5001)
 
 ```
@@ -46,7 +47,7 @@
 
 ![Port Forwarding](debVBOX-034.jpg)
 
-[&#x213C;](#)<br id="idx03">
+[&#x213C;](#idx00)<br id="idx03">
 ## GitHub
 * You should have a GitHub account. E.g. "cbkadal".
   Remember, you are not "cbkadal," so you should replace "cbkadal" with your account.
@@ -56,7 +57,7 @@
   * URL: <https://github.com/yforku/>
   * New Repo: [DocuDemo](https://github.com/yforku/DocuDemo/) --- <https://github.com/yforku/DocuDemo/>, Public, README, .gitignore:Node, MIT License, master branch
 
-[&#x213C;](#)<br id="idx04">
+[&#x213C;](#idx00)<br id="idx04">
 ## Debian 11 sources.list (root)
 * Ref:
   * sources.list <https://osp4diss.vlsm.org/osp-102.html>
@@ -74,7 +75,7 @@ apt-get update && apt-get upgrade -y
 
 ```
 
-[&#x213C;](#)<br id="idx05">
+[&#x213C;](#idx00)<br id="idx05">
 ## Debian Packages (root)
 
 ```
@@ -93,7 +94,7 @@ time (aptitude update&&echo " =1= "&&aptitude safe-upgrade -y&&echo " =2= "&&apt
 
 ```
 
-[&#x213C;](#)<br id="idx06">
+[&#x213C;](#idx00)<br id="idx06">
 ## Default Shell: BASH (root)
 * say “NO” for DASH
 
@@ -103,7 +104,7 @@ dpkg-reconfigure dash
 
 ```
 
-[&#x213C;](#)<br id="idx07">
+[&#x213C;](#idx00)<br id="idx07">
 ## Setting Debian
 * Ref:
   * <https://osp4diss.vlsm.org/osp-106.html>
@@ -171,7 +172,7 @@ source $HOME/.bash_profile
 
 ```
 
-[&#x213C;](#)<br id="idx08">
+[&#x213C;](#idx00)<br id="idx08">
 ## NVM (node.js)
 
 * Get node.js
@@ -204,7 +205,7 @@ node -v
 
 ```
 
-[&#x213C;](#)<br id="idx09">
+[&#x213C;](#idx00)<br id="idx09">
 ## Install Yarn and Check Version
 * npm notice New minor version of npm available! 9.5.1 -> 9.6.6
 * npm notice Changelog: https://github.com/npm/cli/releases/tag/v9.6.6
@@ -226,7 +227,7 @@ npm install -g npm@9.6.6
 
 ```
 
-[&#x213C;](#)<br id="idxZZ">
+[&#x213C;](#idx00)<br id="idxZZ">
 ## This is the Way!
 
 ```
