@@ -62,6 +62,7 @@
   * sources.list <https://osp4diss.vlsm.org/osp-102.html>
 
 ```
+#!/bin/bash
 [ -f /etc/apt/sources.list ] && mv /etc/apt/sources.list /etc/apt/sources.list.zold
 cat > /etc/apt/sources.list << EOF
 deb https://deb.debian.org/debian/  bullseye           main contrib non-free
@@ -77,6 +78,7 @@ apt-get update && apt-get upgrade -y
 ## Debian Packages (root)
 
 ```
+#!/bin/bash
 MYUSER="cbkadal"
 export DEBS="
 aptitude
@@ -96,6 +98,7 @@ time (aptitude update&&echo " =1= "&&aptitude safe-upgrade -y&&echo " =2= "&&apt
 * say “NO” for DASH
 
 ```
+#!/bin/bash
 dpkg-reconfigure dash
 
 ```
@@ -111,6 +114,7 @@ dpkg-reconfigure dash
 * Set $HOME/.bash_profile
 
 ```
+#!/bin/bash
 touch  $HOME/.bash_profile
 ls -al $HOME/.bash_profile
 sleep 2
@@ -140,6 +144,7 @@ source $HOME/.bash_profile
 * Set .bash_aliases (too keep the original .bashrc) and .vimrc
 
 ```
+#!/bin/bash
 cat > $HOME/.vimrc << EOF
 syntax off
 EOF
@@ -172,6 +177,7 @@ source $HOME/.bash_profile
 * Get node.js
 
 ```
+#!/bin/bash
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 # FIRST TIME ONLY or EXIT
 # export NVM_DIR="$HOME/.nvm"
@@ -191,6 +197,7 @@ nvm ls-remote
 * Install and Check Version (e.g. v18.16.0)
 
 ```
+#!/bin/bash
 nvm install v18.16.0
 sleep 2
 node -v
@@ -204,6 +211,7 @@ node -v
 * npm notice Run npm install -g npm@9.6.6 to update!
 
 ```
+#!/bin/bash
 npm install -g yarn
 sleep 2
 yarn --version
@@ -213,6 +221,7 @@ yarn --version
 * Follow the notice (if available). E.g.,
 
 ```
+#!/bin/bash
 npm install -g npm@9.6.6 
 
 ```
@@ -221,7 +230,7 @@ npm install -g npm@9.6.6
 ## This is the Way!
 
 ```
-REV03: Fri 05 May 2023 16:00
+REV03: Fri 05 May 2023 17:00
 REV02: Thu 04 May 2023 16:00
 REV01: Wed 03 May 2023 20:00
 START: Sat 29 Apr 2023 13:00
