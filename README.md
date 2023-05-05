@@ -70,7 +70,7 @@ time (aptitude update&&echo " =1= "&&aptitude safe-upgrade -y&&echo " =2= "&&apt
 ```
 
 [&#x213C;](#)<br id="idx06">
-## Default Shell: BASH
+## Default Shell: BASH (root)
 * say “NO” for DASH
 
 ```
