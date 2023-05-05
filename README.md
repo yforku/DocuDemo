@@ -14,6 +14,19 @@
 ## VirtualBox OVA 
 * Source: DOCU-2304-02.ova (Debian 11.7)
   * OVA Link --- <https://bit.ly/3AWlRjN>
+* Settings     :
+  * Memory     :  4 GB
+  * Disk       : 24 GB
+  * Cores      :  6
+  * usr/passwd : root/cbkadal and cbkadal/cbkadal
+  * NAT        :
+
+```
+127.0.0.1:6022/10.0.2.15:22 (SSH)
+127.0.0.1:5001/10.0.2.15:3000 (Docusaurus)
+
+```
+
 * Ref:
   * Debian ISO <https://doit.vlsm.org/012.html>
   * Preparation <https://doit.vlsm.org/013.html>
@@ -202,7 +215,7 @@ npm install -g npm@9.6.6
 ## This is the Way!
 
 ```
-REV03: Fri 05 May 2023 14:00
+REV03: Fri 05 May 2023 15:00
 REV02: Thu 04 May 2023 16:00
 REV01: Wed 03 May 2023 20:00
 START: Sat 29 Apr 2023 13:00
