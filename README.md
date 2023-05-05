@@ -3,7 +3,7 @@
 * [NAT Port Forwarding (port 3000 to 5001)](#idx02)
 * [GitHub](#idx03)
 * [Debian 11 sources.list (root)](#idx04)
-* [Debian Package (root)](#idx05)
+* [Debian Packages (root)](#idx05)
 * [Default Shell: BASH](#idx06)
 * [Setting Debian](#idx07)
 * [NVM (node.js)](#idx08)
@@ -74,7 +74,7 @@ apt-get update && apt-get upgrade -y
 ```
 
 [&#x213C;](#)<br id="idx05">
-## Debian Package (root)
+## Debian Packages (root)
 
 ```
 MYUSER="cbkadal"
