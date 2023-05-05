@@ -53,8 +53,8 @@
   Visit <https://github.com/>.
 * Create a new GitHub repo. As an example, we will use <https://github.com/yforku/DocuDemo/>.
   You should replace it with your own.
-* URL: <https://github.com/yforku/>
-* New Repo: [DocuDemo](https://github.com/yforku/DocuDemo/) --- <https://github.com/yforku/DocuDemo/>, Public, README, .gitignore:Node, MIT License, master branch
+  * URL: <https://github.com/yforku/>
+  * New Repo: [DocuDemo](https://github.com/yforku/DocuDemo/) --- <https://github.com/yforku/DocuDemo/>, Public, README, .gitignore:Node, MIT License, master branch
 
 [&#x213C;](#)<br id="idx04">
 ## Debian 11 sources.list (root)
