@@ -84,8 +84,8 @@ dpkg-reconfigure dash
   * <https://osp4diss.vlsm.org/osp-106.html>
   * <https://osp4diss.vlsm.org/osp-107.html>
   * <https://osp4diss.vlsm.org/osp-108.html>
-* Add User <https://osp4diss.vlsm.org/osp-104.html> --- because you are NOT CBKADAL!
-* You might want to rename your hostname <https://osp4diss.vlsm.org/osp-105.html>
+* Add User --- <https://osp4diss.vlsm.org/osp-104.html> --- because you are NOT CBKADAL!
+* You might want to rename your hostname --- <https://osp4diss.vlsm.org/osp-105.html>
 * Set $HOME/.bash_profile
 
 ```
