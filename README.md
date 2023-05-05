@@ -30,6 +30,7 @@ apt-get update && apt-get upgrade -y
 ## Debian Package (root)
 
 ```
+MYUSER="cbkadal"
 export DEBS="
 aptitude
 git
@@ -38,7 +39,7 @@ vim
 "
 date;
 time apt-get install $DEBS -y
-[ -d /etc/sudoers.d/ ] && echo "cbkadal    ALL=(ALL:ALL) ALL" > /etc/sudoers.d/cbkadal
+[ -d /etc/sudoers.d/ ] && echo "$MYUSER    ALL=(ALL:ALL) ALL" > /etc/sudoers.d/$MYUSER
 time (aptitude update&&echo " =1= "&&aptitude safe-upgrade -y&&echo " =2= "&&aptitude autoclean -y;)
 
 ```
