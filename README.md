@@ -9,10 +9,11 @@
 
 ## Port Forwarding (port 3000 to 5001)
 
-| ---    | ---      | ---       | ---       | ---       | ---        |
+```
+| ------ | -------- | --------- | --------- | --------- | ---------- |
 | Name   | Protocol | Host IP   | Host Port | Guest IP  | Guest Port |
 | Rule 2 | TCP      | 127.0.0.1 | 5001      | 10.0.2.15 | 3000       |
-
+```
 
 ![Port Forwarding](debVBOX-034.jpg)
 
