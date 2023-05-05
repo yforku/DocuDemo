@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'DocuDemo',
-  tagline: 'Tag Tag Tag',
+  tagline: 'This is the Way!',
   favicon: 'img/favicon.ico',
   url: 'https://yforku.github.io',
   baseUrl: '/DocuDemo/',
@@ -87,7 +87,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/yforku/DocuDemo/',
             label: 'GitHub',
             position: 'right',
           },
@@ -131,12 +131,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://yforku.github.io/DocuDemo/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} BinKadal Sendirian, Berhad.`,
       },
       prism: {
         theme: lightCodeTheme,
