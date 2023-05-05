@@ -8,6 +8,7 @@
 * [Setting Debian](#idx07)
 * [NVM (node.js)](#idx08)
 * [Install Yarn and Check Version](#idx09)
+* [Install Docusaurus](docusaurus.md)
 
 
 [&#x213C;](#)<br id="idx01">
