@@ -4,6 +4,9 @@
 * [GitHub](#idx03)
 * [Debian 11 sources.list (root)](#idx04)
 * [Debian Package (root)](#idx05)
+* [Default Shell: BASH](#idx06)
+* [Setting Debian](#idx07)
+
 
 [&#x213C;](#)<br id="idx01">
 ## VirtualBox OVA 
@@ -66,6 +69,80 @@ time (aptitude update&&echo " =1= "&&aptitude safe-upgrade -y&&echo " =2= "&&apt
 
 ```
 
+[&#x213C;](#)<br id="idx06">
+## Default Shell: BASH
+* say “NO” for DASH
+
+```
+dpkg-reconfigure dash
+
+```
+
+[&#x213C;](#)<br id="idx07">
+## Setting Debian
+* Ref:
+  * <https://osp4diss.vlsm.org/osp-106.html>
+  * <https://osp4diss.vlsm.org/osp-107.html>
+  * <https://osp4diss.vlsm.org/osp-108.html>
+* Add User <https://osp4diss.vlsm.org/osp-104.html> --- because you are NOT CBKADAL!
+* You might want to rename your hostname <https://osp4diss.vlsm.org/osp-105.html>
+* Set $HOME/.bash_profile
+
+```
+touch  $HOME/.bash_profile
+ls -al $HOME/.bash_profile
+sleep 2
+cat > $HOME/.bash_profile << EOF
+# Thu 15 Jul 2021 15:16:28 WIB
+umask 022
+
+# If running bash
+[ -n "\$BASH_VERSION" ] && {
+    # include .bashrc if it exists
+    [ -f \$HOME/.bashrc ] && . \$HOME/.bashrc
+}
+
+# Local PATH
+[ -d "\$HOME/bin" ]        && PATH="\$HOME/bin:\$PATH"
+[ -d "\$HOME/.local/bin" ] && PATH="\$HOME/.local/bin:\$PATH"
+
+EOF
+
+ls -al $HOME/.bash_profile
+sleep 2
+source $HOME/.bash_profile
+
+```
+
+
+* Set .bash_aliases (too keep the original .bashrc) and .vimrc
+
+```
+cat > $HOME/.vimrc << EOF
+syntax off
+EOF
+
+cat > $HOME/.bash_aliases << EOF
+# REV02: Fri 05 May 2023 09:00
+# REV01: Wed 08 Feb 2023 17:00
+# START: Sun 09 Jan 2022 15:00
+
+alias cl='clear;echo ""'
+alias h='history'
+alias gac='git add -A && git commit'
+alias ggg='git pull; git add -A; git commit -m "OS231 cbkadal"; git push;'
+alias glog='git log --all --decorate --oneline --graph'
+alias mv='mv -i'
+alias rm='rm -i'
+alias sss='. ~/.bash_profile'
+export EDITOR=/usr/bin/vi
+export HISTSIZE=2000
+export HISTFILESIZE=2000
+EOF
+
+source $HOME/.bash_profile
+
+```
 
 
 ## This is the Way!
