@@ -15,7 +15,7 @@
 ## VirtualBox OVA 
 * Source: DOCU-2304-02.ova (Debian 11.7)
   * OVA Link --- <https://bit.ly/3AWlRjN>
-* Settings     :
+* Settings (feel free to alter)
   * Memory     :  4 GB
   * Disk       : 24 GB
   * Cores      :  6
