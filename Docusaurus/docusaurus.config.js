@@ -131,7 +131,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://yforku.github.io/DocuDemo/',
+                href: 'https://github.com/yforku/DocuDemo/',
               },
             ],
           },
