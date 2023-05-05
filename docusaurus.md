@@ -1,3 +1,4 @@
+[&#x213C;](#)<br id="idx00">
 # Install Docusarus
 * [README](README.md)
 * [Introduction](#idx01)
@@ -5,20 +6,20 @@
 * [Cloning GitHub Repo](#idx03)
 
 
-[&#x213C;](#)<br id="idx01">
+[&#x213C;](#idx00)<br id="idx01">
 ## Introduction
 
 This part is not included in the OVA file because it contains SSH KEYS and GitHub account information. This part will use the user account "cbkadal" as an example. Remember, you are not "cbkadal," so you should replace "cbkadal" with your account. 
 Again, you are not "cbkadal," so you should replace "cbkadal" with your account.
 
-[&#x213C;](#)<br id="idx02">
+[&#x213C;](#idx00)<br id="idx02">
 ## GitHub and SSH
 * In this example, we will use the GitHub account "cbkadal" and repo <https://github.com/yforku/DocuDemo/>. You should replace it with your own. See also [README](README.md#idx03).
 * Generating a GnuPG KEY PAIR. See <https://osp4diss.vlsm.org/osp-110.html>.
 * Put a Public Key at GitHub.com. See <https://osp4diss.vlsm.org/osp-111.html>.
 * Setting .gitconfig. See <https://osp4diss.vlsm.org/osp-112.html>.
 
-[&#x213C;](#)<br id="idx03">
+[&#x213C;](#idx00)<br id="idx03">
 ## Cloning GitHub Repo
 * In this example, we will use the GitHub account "cbkadal" and repo <https://github.com/yforku/DocuDemo/>. You should replace it with your own. See also [README](README.md#idx03).
 * Test your SSH connection to GitHub.
@@ -56,7 +57,7 @@ ls -aF
 
 
 
-[&#x213C;](#)<br id="idxZZ">
+[&#x213C;](#idx00)<br id="idxZZ">
 ## This is the Way!
 
 ```
