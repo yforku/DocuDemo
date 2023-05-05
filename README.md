@@ -179,6 +179,9 @@ node -v
 
 [&#x213C;](#)<br id="idx09">
 ## Install Yarn and Check Version
+* npm notice New minor version of npm available! 9.5.1 -> 9.6.6
+* npm notice Changelog: https://github.com/npm/cli/releases/tag/v9.6.6
+* npm notice Run npm install -g npm@9.6.6 to update!
 
 ```
 npm install -g yarn
@@ -187,6 +190,12 @@ yarn --version
 
 ```
 
+* Follow the notice (if available). E.g.,
+
+```
+npm install -g npm@9.6.6 
+
+```
 
 
 ## This is the Way!
