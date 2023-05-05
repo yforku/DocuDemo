@@ -110,7 +110,7 @@ npm run start -- --host 0.0.0.0
 
 ```
 
-* Do yarn
+* Deploy yarn
 
 ```
 #!/bin/bash
