@@ -6,6 +6,8 @@
   * Debian ISO <https://doit.vlsm.org/012.html>
   * Preparation <https://doit.vlsm.org/013.html>
   * Instalation <https://doit.vlsm.org/014.html>
+  
+![Port Forwarding](debVBOX-034.jpg)
 
 ## Github
 * URL: <https://github.com/yforku/>
