@@ -12,16 +12,14 @@ Again, you are not "cbkadal," so you should replace "cbkadal" with your account.
 
 [&#x213C;](#)<br id="idx02">
 ## GitHub and SSH
-* In this example, we will use the GitHub account "cbkadal" and repo <https://github.com/yforku/DocuDemo/>.  
-  You should replace it with your own. See also [README](README.md#idx03).
+* In this example, we will use the GitHub account "cbkadal" and repo <https://github.com/yforku/DocuDemo/>. You should replace it with your own. See also [README](README.md#idx03).
 * Generating a GnuPG KEY PAIR. See <https://osp4diss.vlsm.org/W02-03.html>.
 * Put a Public Key at GitHub.com. See <https://osp4diss.vlsm.org/osp-111.html>.
 * Setting .gitconfig. See <https://osp4diss.vlsm.org/osp-112.html>.
 
 [&#x213C;](#)<br id="idx03">
 ## Cloning GitHub Repo
-* In this example, we will use the GitHub account "cbkadal" and repo <https://github.com/yforku/DocuDemo/>.
-  You should replace it with your own. See also [README](README.md#idx03).
+* In this example, we will use the GitHub account "cbkadal" and repo <https://github.com/yforku/DocuDemo/>. You should replace it with your own. See also [README](README.md#idx03).
 * Test your SSH connection to GitHub.
 
 ```
