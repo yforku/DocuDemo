@@ -1,4 +1,4 @@
-# Docusarus
+# Install Docusarus
 * [README](README.md)
 * [Introduction](#idx01)
 
