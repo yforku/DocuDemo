@@ -5,6 +5,7 @@
 * [GitHub and SSH](#idx02)
 * [Cloning GitHub Repo](#idx03)
 * [Installing Docusaurus](#idx04)
+* [Local Test](#idx05)
 
 
 [&#x213C;](#idx00)<br id="idx01">
@@ -58,6 +59,7 @@ ls -aF
 
 [&#x213C;](#idx00)<br id="idx04">
 ## Installing Docusaurus
+* You may replace "REPO" with your own repo.
 
 ```
 #!/bin/bash
@@ -72,6 +74,25 @@ cd $HOME/git/$REPO/Docusaurus/
 ls -al
 
 ```
+
+[&#x213C;](#idx00)<br id="idx05">
+## Local Test
+* Run
+
+```
+#!/bin/bash
+npm run start -- --host 0.0.0.0
+
+```
+
+* NAT from port 3000 to port 5001
+* At your host, use 
+
+```
+http://localhost:5001/
+
+```
+
 
 [&#x213C;](#idx00)<br id="idxZZ">
 ## This is the Way!
