@@ -43,9 +43,10 @@ ssh -T git@github.com
 #!/bin/bash
 echo You are not cbkadal! You should replace GIT_USER, ORG, and REPO with your own.
 sleep 2
+REPO="DocuDemo"
 GIT_USER="cbkadal"
 ORG="yforku"
-REPO="DocuDemo"
+USE_SSH="true"
 LINK="$ORG/${REPO}.git"
 echo $LINK
 
@@ -72,7 +73,6 @@ ls -aF
 
 ```
 #!/bin/bash
-REPO="DocuDemo"
 echo "Using repo $REPO/"
 sleep 2
 [ -d $HOME/git/$REPO/ ] || { echo "ERROR: no git directory!"; exit 1; }
@@ -90,7 +90,6 @@ ls -al
 
 ```
 #!/bin/bash
-REPO="DocuDemo"
 cd $HOME/git/$REPO/Docusaurus/
 npm run start -- --host 0.0.0.0
 
@@ -122,8 +121,6 @@ npm run start -- --host 0.0.0.0
 
 ```
 #!/bin/bash
-GIT_USER="cbkadal"
-USE_SSH="true"
 yarn deploy
 
 ```
