@@ -227,6 +227,9 @@ npm install -g npm@9.6.6
 
 ```
 
+[&#x213C;](#idx00)<br id="idx10">
+## [Install Docusaurus](docusaurus.md)
+
 [&#x213C;](#idx00)<br id="idxZZ">
 ## This is the Way!
 
