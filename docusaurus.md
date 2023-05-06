@@ -60,8 +60,8 @@ mkdir -vp $HOME/git/
 [ -d $HOME/git/ ] || { echo "ERROR: no git directory!"; exit 1; }
 cd $HOME/git/
 git clone git@github.com:$LINK
-[ -d $REPO/ ] || { echo "ERROR: no $REPO repo!"; exit 1; }
-cd $REPO/
+[ -d $HOME/git/$REPO/ ] || { echo "ERROR: no $REPO repo!"; exit 1; }
+cd $HOME/git/$REPO/
 git status
 ls -aF
 
@@ -121,6 +121,8 @@ npm run start -- --host 0.0.0.0
 
 ```
 #!/bin/bash
+[ -d $HOME/git/$REPO/Docusaurus/ ] || { echo "ERROR: no git directory!"; exit 1; }
+cd $HOME/git/$REPO/Docusaurus/
 yarn deploy
 
 ```
