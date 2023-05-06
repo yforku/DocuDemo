@@ -33,20 +33,28 @@ ssh -T git@github.com
 
 ```
 
-* Cloning
-  * USER: "cbkadal"
+* You are not cbkadal! You should replace GIT_USER, ORG, and REPO with your own.
+  * GIT_USER: "cbkadal"
   * ORG:  "yforku"
   * REPO: "DocuDemo"
   * LINK: <https://github.com/yforku/DocuDemo/>
 
 ```
 #!/bin/bash
-echo You are not cbkadal! You should replace USER, ORG, and REPO with your own.
+echo You are not cbkadal! You should replace GIT_USER, ORG, and REPO with your own.
 sleep 2
-USER="cbkadal"
+GIT_USER="cbkadal"
 ORG="yforku"
 REPO="DocuDemo"
 LINK="$ORG/${REPO}.git"
+echo $LINK
+
+```
+
+* Cloning
+
+```
+#!/bin/bash
 mkdir -vp $HOME/git/
 [ -d $HOME/git/ ] || { echo "ERROR: no git directory!"; exit 1; }
 cd $HOME/git/
@@ -125,6 +133,7 @@ yarn deploy
 ## This is the Way!
 
 ```
+#### REV02: Sat 06 May 2023 22:00
 #### REV01: Fri 05 May 2023 20:00
 #### START: Fri 05 May 2023 15:00
 ```
