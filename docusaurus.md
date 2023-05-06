@@ -48,7 +48,7 @@ GIT_USER="cbkadal"
 ORG="yforku"
 USE_SSH="true"
 LINK="$ORG/${REPO}.git"
-echo $LINK
+echo The GIT LINK IS git@github.com:$LINK
 
 ```
 
